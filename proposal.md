@@ -5,9 +5,9 @@
 •    Project Title: Keycloak IAM Solution
 •    Course: CPT 298
 •    Term: Summer 2026
-•    Student Name(s): Jeremie Onanga, Theodore (Teddy) Robillard
+•    Student Name: Theodore (Teddy) Robillard
 •    Primary Contact:
-•    Proposed Start Date: 06/04/2026
+•    Proposed Start Date: 06/25/2026
 •    Proposed End Date: 07/05/2026
 
 ---
@@ -19,8 +19,7 @@ Include:
 •    Personal or professional motivation
 •    Alignment with career goals
 •    Relevant interests or prior exposure
-Project topic was suggested by Jeremie, and he has an interest in cybersecurity. 
-Theodore has a background in networking. 
+I have a background in networking. 
 
 ---
 
@@ -30,7 +29,7 @@ cpt.internal lacks centralized IAM—each service manages its own accounts indep
 ---
 
 ## 4. Proposed Solution Overview
-We will deploy Keycloak as the centralized IAM solution for cpt.internal. It will act as the Identity Provider (IdP) for one integrated service, enabling SSO via OpenID Connect.
+I will deploy Keycloak as the centralized IAM solution for cpt.internal. It will act as the Identity Provider (IdP) for one integrated service, enabling SSO via OpenID Connect.
 Core features
 SSO for one internal service via OIDC
 Centralized user/group management in a dedicated realm
@@ -61,21 +60,6 @@ For audit: OWASP ZAP, testssl.sh, nmap, Keycloak hardening guide
 
 
 ## 6. Prerequisite Knowledge & Skills
-Jeremie Onanga:
-Skills I already have
-
-Linux system administration (Debian, Ubuntu, Arch), Cisco networking fundamentals (VLANs, ACLs, OSPF, NAT, EtherChannel), Python and Bash scripting, penetration testing basics,...
-Skills I need to learn
-
-OAuth 2.0 and OpenID Connect (authorization code flow, PKCE), SAML 2.0, JWT (structure, validation, attacks), Keycloak administration (realm setup, client configuration, policies, federation), LDAP basics, CVSS scoring.
-
-Relevant coursework
-
-CPT 201 (Linux administration), CPT 239 (Cisco networking), CPT 271 (Network Security), CPT 281 (Penetration Testing).
-Prior projects
- Arch Linux Local AI Services Station (Ollama, Docker, systemd services), CPT 281 lab work.
-
-
  Teddy Robillard:
  
  Skills I have: 
@@ -109,8 +93,8 @@ LDAP/AD federation (if existing directory available)
 
 ## 8. Milestones & Timeline
 
-- Phase 1: Research & Design 6/21/26 to 6/24/26
-- Phase 2: Core Implementation 6/25/26 to 7/1/26
+- Phase 1: Research & Design 6/26/26
+- Phase 2: Core Implementation 6/26/26 to 7/1/26
 - Phase 3: Testing & Refinement 7/2/26 to 7/5/26
 - Phase 4: Documentation & Presentation 7/5/26
 
@@ -121,7 +105,7 @@ LDAP/AD federation (if existing directory available)
 ## 9. Risks, Constraints & Dependencies
 
 - July 5th is not very far out.
-- We will probably need Admin excess
+- I will probably need Admin excess
 - to mitigate these problems we will work on this as a top priority  
 
 ---
@@ -140,24 +124,8 @@ LDAP/AD federation (if existing directory available)
 ## 11. Team Structure (If Applicable)
 
 Roles
-Jeremie — Security & Integration Lead: threat model, Keycloak config (realm, policies, RBAC), audit logging, OIDC integration, security audit, coordination
 
-Theodore — Infrastructure & Documentation Lead: Keycloak deployment, PostgreSQL, reverse proxy + TLS, network, documentation (README, deployment guide, UVDesk)
-
-Communication
-Weekly async Discord status update
-at least 1 short call/week
-GitHub Issues for tracking
-Decisions in DECISIONS.md
-
-Conflict resolution
-Discussed at scheduled calls
-Blockers unresolved within 24h → escalated to instructor
-
-Workload distribution
-Clear owner per deliverable, peer review
-Weekly check for overload
-Critical path drives priorities
+N/A
 
 
 
@@ -186,8 +154,8 @@ By submitting this proposal, I acknowledge that:
 
 **Signature (Name & Date):**
 
-Student 1:  ____________________________ Date: _______________
-Student 2:  Theodore Robillard Date: 6/21/2026
+Student 1:  Theodore Robillard Date: 6/21/2026
+Student 2:  ____________________________ Date: _______________
 Student 3:  ____________________________ Date: _______________
 Student 4:  ____________________________ Date: _______________
 
